@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WesDoyleForums.Services;
 using WesDoyleForum.Data;
+using WesDoyleForum.Data.Models;
 
 namespace WesDoyleForums
 {

@@ -1,4 +1,6 @@
-﻿namespace WesDoyleForum.Data.Models
+﻿using System;
+
+namespace WesDoyleForum.Data.Models
 {
     public class PostReply
     {
