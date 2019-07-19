@@ -44,7 +44,7 @@ namespace WesForum.Service
                 .Include(post => post.User)
                 .Include(post => post.Replies).ThenInclude(reply => reply.User)
                 .Include(post => post.Forum)
-                .First();
+                .FirstOrDefault();
         }
 
         public IEnumerable<Post> GetFilteredPosts(string searchQuery)
