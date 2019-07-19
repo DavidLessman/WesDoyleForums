@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WesDoyleForums.Services;
-using WesDoyleForum.Data;
-using WesDoyleForum.Data.Models;
+using WesForum.Services;
+using WesForum.Data;
+using WesForum.Data.Models;
 
-namespace WesDoyleForums
+namespace WesForum
 {
     public class Startup
     {

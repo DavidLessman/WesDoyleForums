@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WesDoyleForum.Data.Models
+namespace WesForum.Data.Models
 {
     public class PostReply
     {

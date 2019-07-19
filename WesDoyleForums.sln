@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesDoyleForums", "WesDoyleForums\WesDoyleForums.csproj", "{8743DBF3-B8CF-4554-BF5D-EA1D17083514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesForum", "WesDoyleForums\WesForum.csproj", "{8743DBF3-B8CF-4554-BF5D-EA1D17083514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WesDoyleForum.Data", "WesDoyleForum.Data\WesDoyleForum.Data.csproj", "{7C896C7D-E997-41F7-9A5D-AE119562F76B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WesForum.Data", "WesDoyleForum.Data\WesForum.Data.csproj", "{7C896C7D-E997-41F7-9A5D-AE119562F76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WesForum.Service", "WesForums.Service\WesForum.Service.csproj", "{344FC17B-AC8B-4D25-8A86-B81800778491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7C896C7D-E997-41F7-9A5D-AE119562F76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C896C7D-E997-41F7-9A5D-AE119562F76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C896C7D-E997-41F7-9A5D-AE119562F76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344FC17B-AC8B-4D25-8A86-B81800778491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344FC17B-AC8B-4D25-8A86-B81800778491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344FC17B-AC8B-4D25-8A86-B81800778491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344FC17B-AC8B-4D25-8A86-B81800778491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

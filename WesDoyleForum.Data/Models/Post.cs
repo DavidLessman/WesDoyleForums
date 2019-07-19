@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WesDoyleForum.Data.Models
+namespace WesForum.Data.Models
 {
     public class Post
     {

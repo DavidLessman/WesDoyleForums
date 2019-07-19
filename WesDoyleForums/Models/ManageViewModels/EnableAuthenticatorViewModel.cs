@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace WesDoyleForums.Models.ManageViewModels
+namespace WesForum.Models.ManageViewModels
 {
     public class EnableAuthenticatorViewModel
     {

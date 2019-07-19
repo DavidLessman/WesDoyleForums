@@ -1,8 +1,8 @@
-﻿using WesDoyleForum.Data.Models;
+﻿using WesForum.Data.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace WesDoyleForum.Data
+namespace WesForum.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

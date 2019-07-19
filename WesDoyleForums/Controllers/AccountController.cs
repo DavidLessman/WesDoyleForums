@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using WesDoyleForums.Models;
-using WesDoyleForums.Models.AccountViewModels;
-using WesDoyleForums.Services;
+using WesForum.Data.Models;
+using WesForum.Models.AccountViewModels;
+using WesForum.Services;
 
-namespace WesDoyleForums.Controllers
+namespace WesForum.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]

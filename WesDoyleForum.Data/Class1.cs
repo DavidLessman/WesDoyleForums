@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WesDoyleForum.Data
+namespace WesForum.Data
 {
     public class Class1
     {

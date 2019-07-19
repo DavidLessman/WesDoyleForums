@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WesDoyleForums.Models.AccountViewModels
+namespace WesForum.Models.AccountViewModels
 {
     public class LoginWith2faViewModel
     {

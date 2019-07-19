@@ -1,6 +1,6 @@
 using System;
 
-namespace WesDoyleForums.Models
+namespace WesForum.Models
 {
     public class ErrorViewModel
     {

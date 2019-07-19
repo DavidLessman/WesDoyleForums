@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using WesDoyleForums.Services;
+using WesForum.Services;
 
-namespace WesDoyleForums.Services
+namespace WesForum.Services
 {
     public static class EmailSenderExtensions
     {

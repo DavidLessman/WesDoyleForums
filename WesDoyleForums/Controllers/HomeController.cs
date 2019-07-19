@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WesDoyleForums.Models;
+using WesForum.Models;
 
-namespace WesDoyleForums.Controllers
+namespace WesForum.Controllers
 {
     public class HomeController : Controller
     {
