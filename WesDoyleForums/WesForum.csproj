@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WesDoyleForum.Data\WesForum.Data.csproj" />
+    <ProjectReference Include="..\WesForums.Service\WesForum.Service.csproj" />
   </ItemGroup>
 
 </Project>

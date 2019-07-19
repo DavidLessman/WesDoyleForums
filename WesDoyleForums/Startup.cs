@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using WesForum.Services;
 using WesForum.Data;
 using WesForum.Data.Models;
+using WesForum.Service;
 
 namespace WesForum
 {
@@ -31,6 +32,7 @@ namespace WesForum
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.AddScoped<IForum, ForumService>();
 
             services.AddMvc();
         }
