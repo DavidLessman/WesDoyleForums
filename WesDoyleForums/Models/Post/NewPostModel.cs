@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using WesForum.Models.Reply;
 
 namespace WesForum.Models.Post
 {
@@ -13,5 +11,7 @@ namespace WesForum.Models.Post
         public string ForumImageUrl { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        
+        public IEnumerable<PostReplyModel> Replies { get; set; }
     }
 }

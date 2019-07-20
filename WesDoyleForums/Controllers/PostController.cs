@@ -71,7 +71,7 @@ namespace WesForum.Controllers
 
             // TODO: Implement User Rating Management
 
-            return RedirectToAction("Index", "Post", new { post = post.Id });
+            return RedirectToAction("Index", "Post", new { id = post.Id });
         }
 
         private Post BuildPost(NewPostModel model, ApplicationUser user)
